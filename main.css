@@ -1,0 +1,105 @@
+#map{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: aquamarine;
+  margin: 2%;
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+}
+
+#info {
+  display: table;
+  position: relative;
+  
+  word-wrap: anywhere;
+  white-space: pre-wrap;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  color: #222;
+  background: #fff;
+
+  width: 95%;
+  height: 30px;
+}
+
+.marker {
+  background-image: url('image/m.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 60%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.coor{
+  
+  margin-left: 4%;
+  width: 45%;
+  height: 40px;
+  display: inline-block;
+}
+
+
+.list{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 2%;
+  width: 40%;
+  height: 400px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.reggg{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 2%;
+  width: 40%;
+  height: 700px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+.lt{ 
+  width: 100%;
+  background-color:white;
+}
+
+.list2{
+  width: 100%;
+  height: 365px;
+  display: inline-block;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.options{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 7%;
+  width: 40%;
+  display: inline-block;
+}
+
+.formu{
+  width: 100%;
+}
+
